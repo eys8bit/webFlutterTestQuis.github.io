@@ -45874,7 +45874,7 @@ this.a.toString
 s=A.a2f("ngetest web flutter coy",r)
 return new A.qt(new A.nS(s,new A.DT(r,r,1/0,56),r),A.HL(A.a9q(A.a([B.Ga,A.a2f(""+this.d,A.bE(b).ae.e)],t.F),B.A4),r,r),A.a0L(B.wC,!1,this.gKR(),"Increment"),r)}}
 A.UA.prototype={
-$0(){++this.a.d},
+$0(){--this.a.d},
 $S:0};(function aliases(){var s=A.Ep.prototype
 s.EP=s.a_
 s.EU=s.bf
@@ -49192,7 +49192,7 @@ B.Fi=new A.k(!0,B.i,null,".SF UI Text",null,null,null,null,null,null,null,null,n
 B.DM=new A.k(!0,B.i,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"whiteCupertino labelSmall",null,null,null)
 B.G8=new A.cF(B.Dc,B.ES,B.F4,B.FJ,B.Er,B.Dz,B.EZ,B.Eu,B.EC,B.Fr,B.DJ,B.FO,B.Em,B.Fi,B.DM)
 B.G9=new A.Ax(1,"longestLine")
-B.Ga=new A.mB("You have pushed the button this many times:",null,null,null)
+B.Ga=new A.mB("Kamu bisa tekan tombolnya :",null,null,null)
 B.Iy=new A.Sc(0,"system")
 B.Gb=new A.r6(null)
 B.db=new A.r7(0,"clamp")
