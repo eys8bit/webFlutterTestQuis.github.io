@@ -17945,7 +17945,8 @@ Ku:function Ku(a,b,c,d){var _=this
 _.d=a
 _.e=b
 _.f=0
-_.r=c
+_.r=null
+_.x=c
 _.a=null
 _.b=d
 _.c=null},
@@ -17968,7 +17969,8 @@ this.b=b},
 a3V:function a3V(a,b,c){this.a=a
 this.b=b
 this.c=c},
-a3S:function a3S(a){this.a=a},
+a3S:function a3S(a,b){this.a=a
+this.b=b},
 ZK:function ZK(){},
 DL:function DL(a){this.a=a},
 hS(){var s=null
@@ -60168,7 +60170,7 @@ return Math.sqrt(r*r+q*q+p*p+s*s)}}
 A.v4.prototype={
 aD(){return new A.Ku(A.adr(null),A.adr(null),"d08_04_22",B.l)}}
 A.Ku.prototype={
-O(a,b){var s,r,q,p,o,n,m,l,k=this,j=null,i={},h=new A.ZK().KX(k.r),g=h==null,f=g?j:h.gn(h)
+O(a,b){var s,r,q,p,o,n,m,l,k=this,j=null,i={},h=new A.ZK().KX(k.x),g=h==null,f=g?j:h.gn(h)
 f.toString
 s=f-1
 r=k.f
@@ -60187,7 +60189,7 @@ A.hS()
 o=t.G
 f=A.a8I(A.a([p,A.dm(j,A.jG(A.kx(""+k.f+"/"+f,j,j,j,A.hS().e,j,j),j,j),B.q,j,j,100,j,j,100)],o),B.c9,B.r5,B.cY)
 A.hS()
-p=k.r
+p=k.x
 A.hS()
 n=A.j2(j,j,B.eZ,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j)
 A.hS()
@@ -60201,7 +60203,7 @@ $1(a){var s=this.a
 s.aF(new A.a3W(s,a))},
 $S:88}
 A.a3W.prototype={
-$0(){this.a.r=this.b},
+$0(){this.a.x=this.b},
 $S:0}
 A.a3X.prototype={
 $1(a){var s=null
@@ -60232,19 +60234,22 @@ $1(a){var s=null
 return A.ab0(A.kx("masa "+A.e(this.b)+" artinya "+this.a.e.a.a+" --> salah lah",s,s,s,s,s,s))},
 $S:133}
 A.a3V.prototype={
-$0(){A.afY(new A.a3S(this.c),this.b,t.z)
-this.a.f=0},
+$0(){var s=this.a
+s.r=s.f
+A.afY(new A.a3S(s,this.c),this.b,t.z)
+s.f=0},
 $S:0}
 A.a3S.prototype={
-$1(a){var s=null,r=this.a+1
-return A.ab0(A.kx("bener semua "+r+"/"+r,s,s,s,s,s,s))},
+$1(a){var s=null,r=this.a.r
+r.toString
+return A.ab0(A.kx("bener semua "+(r+1)+"/"+(this.b+1),s,s,s,s,s,s))},
 $S:133}
 A.ZK.prototype={
 KX(a){var s
 if(a==="d08_04_22"){s=t.s
 return A.aw(["benefits",A.a(["manfaat"],s),"attention",A.a(["perhatian"],s),"some",A.a(["beberapa","sebagian","sedikit"],s),"effort",A.a(["usaha"],s),"permission",A.a(["izin"],s),"faith",A.a(["iman"],s),"interests",A.a(["minat"],s),"own",A.a(["memiliki"],s),"attempt",A.a(["percobaan"],s),"direction",A.a(["arah"],s),"lack",A.a(["kekurangan"],s),"since",A.a(["sejak"],s),"behavior",A.a(["perilaku"],s),"instance",A.a(["kejadian","contoh"],s)],t.N,t.yp)}else if(a==="d09_04_22"){s=t.s
 return A.aw(["permit",A.a(["izin"],s),"doubt",A.a(["keraguan"],s),"responsibilities",A.a(["tanggung jawab"],s),"pleasure",A.a(["kesenangan"],s),"desire",A.a(["keinginan"],s),"existence",A.a(["keberadaan"],s),"phrase",A.a(["frasa"],s),"fault",A.a(["kesalahan"],s),"favor",A.a(["bantuan"],s),"mistake",A.a(["kesalahan"],s)],t.N,t.yp)}else if(a==="d11_04_22"){s=t.s
-return A.aw(["permit",A.a(["izin"],s),"doubt",A.a(["keraguan"],s)],t.N,t.yp)}}}
+return A.aw(["path",A.a(["jalur"],s),"step",A.a(["langkah"],s),"a few",A.a(["beberapa"],s),"exercise",A.a(["berlatih"],s),"shirt",A.a(["baju"],s),"wear",A.a(["memakai"],s),"championship",A.a(["kejuaraan"],s)],t.N,t.yp)}}}
 A.DL.prototype={
 O(a,b){return B.Eb}}
 A.a0r.prototype={};(function aliases(){var s=A.L6.prototype
