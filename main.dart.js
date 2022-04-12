@@ -60438,7 +60438,7 @@ A.KJ.prototype={
 rT(){var s=0,r=A.a4(t.z),q,p=this
 var $async$rT=A.a5(function(a,b){if(a===1)return A.a1(b,r)
 while(true)switch(s){case 0:s=3
-return A.ad(p.x.rS(0,"assets/audios/benarSound.mp3",!0),$async$rT)
+return A.ad(p.x.rS(0,"assets/assets/audios/benarSound.mp3",!0),$async$rT)
 case 3:q=b
 s=1
 break
