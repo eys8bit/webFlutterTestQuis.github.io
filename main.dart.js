@@ -60563,7 +60563,7 @@ h=A.j5(d,d,B.dL,d,d,d,d,d,d,d,d,d,d,d,d,d,!0,d,d,d,d,d,d,d,d)
 A.fc()
 g=A.dp(d,d,B.dL,d,d,2,d,d,d)
 f=t.fo
-k=A.dp(d,A.jJ(new A.nM(A.ah(new A.aP(A.a(["d08_04_22","d09_04_22","d11_04_22","d12_04_22"],t.s),new A.a4f(),f),!0,f.j("be.E")),i,new A.a4g(e),h,g,B.A6,d,t.Af),d,d),l.b,d,d,n*0.2,new A.aO(0,2,0,2),d,k.a.a*0.88)
+k=A.dp(d,A.jJ(new A.nM(A.ah(new A.aP(A.a(["d08_04_22","d09_04_22","d11_04_22","d12_04_22","d27_04_22"],t.s),new A.a4f(),f),!0,f.j("be.E")),i,new A.a4g(e),h,g,B.A6,d,t.Af),d,d),l.b,d,d,n*0.2,new A.aO(0,2,0,2),d,k.a.a*0.88)
 n=new A.pN().t8(a2)
 p=a2.R(p).f
 l=A.fc()
@@ -60621,7 +60621,8 @@ return A.an(["benefits",A.a(["manfaat"],s),"attention",A.a(["perhatian"],s),"som
 return A.an(["permit",A.a(["izin"],s),"doubt",A.a(["keraguan"],s),"responsibilities",A.a(["tanggung jawab"],s),"pleasure",A.a(["kesenangan"],s),"desire",A.a(["keinginan"],s),"existence",A.a(["keberadaan"],s),"phrase",A.a(["frasa"],s),"fault",A.a(["kesalahan"],s),"favor",A.a(["bantuan"],s),"mistake",A.a(["kesalahan"],s)],t.N,t.yp)}else if(a==="d11_04_22"){s=t.s
 return A.an(["path",A.a(["jalur"],s),"step",A.a(["langkah"],s),"a few",A.a(["beberapa"],s),"exercise",A.a(["berlatih"],s),"shirt",A.a(["baju"],s),"wear",A.a(["memakai"],s),"championship",A.a(["kejuaraan"],s)],t.N,t.yp)}else if(a==="d12_04_22"){s=t.s
 return A.an(["someone",A.a(["seseorang"],s),"getting up",A.a(["bangun"],s),"went on speaking",A.a(["terus berbicara"],s),"Just a moment",A.a(["tunggu sebentar"],s),"folowing",A.a(["mengikuti"],s),"meal",A.a(["makanan"],s),"including",A.a(["menyertakan"],s),"anyone",A.a(["siapapun"],s),"agree",A.a(["setuju"],s),"everybody",A.a(["semua orang"],s),"taking effect",A.a(["menimbulkan dampak"],s),"taking",A.a(["menggunkan"],s),"saying",A.a(["mengucapkan"],s),"happening",A.a(["kejadian"],s)],t.N,t.yp)}else if(a==="d13_04_22"){s=t.s
-return A.an(["exept",A.a(["kecuali"],s),"kept on",A.a(["terus"],s)],t.N,t.yp)}}}
+return A.an(["exept",A.a(["kecuali"],s),"kept on",A.a(["terus"],s)],t.N,t.yp)}else if(a==="d27_04_22"){s=t.s
+return A.an(["kind",A.a(["jenis"],s),"literature",A.a(["sastra"],s),"fashion",A.a(["mode"],s),"theaters",A.a(["teater"],s),"concert",A.a(["konser"],s)],t.N,t.yp)}}}
 A.E_.prototype={
 O(a,b){return B.Ej}}
 A.a0K.prototype={}
